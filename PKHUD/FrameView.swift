@@ -29,7 +29,7 @@ internal class FrameView: UIVisualEffectView {
 
         contentView.addSubview(self.content)
 
-        let offset = 20.0
+        let offset = 0
 
         let motionEffectsX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
         motionEffectsX.maximumRelativeValue = offset
